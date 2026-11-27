@@ -1,0 +1,35 @@
+DATASET QUALITY REPORT
+==================================================
+
+Total records: 900
+
+Missing values:
+record_id       0
+pair_id       300
+source_id       0
+model           0
+domain          0
+text_type       0
+attack          0
+text            0
+word_count      0
+char_count      0
+
+Text length statistics:
+                count    mean     std   min     25%    50%    75%     max
+text_type                                                                
+human           300.0  278.71  216.62  46.0  181.75  225.5  282.0  2862.0
+original_ai     300.0  238.20  109.87   4.0  146.75  232.5  333.0   450.0
+paraphrased_ai  300.0  201.92   98.20   8.0  123.00  191.0  271.0   457.0
+
+Domain distribution:
+text_type  human  original_ai  paraphrased_ai
+domain                                       
+abstracts     37           35              35
+books         37           37              37
+news          38           37              37
+poetry        38           41              41
+recipes       38           36              36
+reddit        37           39              39
+reviews       37           38              38
+wiki          38           37              37

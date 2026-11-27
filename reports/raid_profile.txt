@@ -1,0 +1,284 @@
+Total records: 5,615,820
+
+
+--- MODELS ---
+chatgpt: 320,904
+cohere: 320,904
+cohere-chat: 320,904
+gpt2: 641,808
+gpt3: 320,904
+gpt4: 320,904
+human: 160,452
+llama-chat: 641,808
+mistral: 641,808
+mistral-chat: 641,808
+mpt: 641,808
+mpt-chat: 641,808
+
+--- ATTACKS ---
+alternative_spelling: 467,985
+article_deletion: 467,985
+homoglyph: 467,985
+insert_paragraphs: 467,985
+none: 467,985
+number: 467,985
+paraphrase: 467,985
+perplexity_misspelling: 467,985
+synonym: 467,985
+upper_lower: 467,985
+whitespace: 467,985
+zero_width_space: 467,985
+
+--- DOMAINS ---
+abstracts: 741,720
+books: 748,020
+news: 747,600
+poetry: 743,820
+recipes: 744,240
+reddit: 747,180
+reviews: 396,060
+wiki: 747,180
+
+--- DOMAIN + ATTACK ---
+('abstracts', 'alternative_spelling'): 61,810
+('abstracts', 'article_deletion'): 61,810
+('abstracts', 'homoglyph'): 61,810
+('abstracts', 'insert_paragraphs'): 61,810
+('abstracts', 'none'): 61,810
+('abstracts', 'number'): 61,810
+('abstracts', 'paraphrase'): 61,810
+('abstracts', 'perplexity_misspelling'): 61,810
+('abstracts', 'synonym'): 61,810
+('abstracts', 'upper_lower'): 61,810
+('abstracts', 'whitespace'): 61,810
+('abstracts', 'zero_width_space'): 61,810
+('books', 'alternative_spelling'): 62,335
+('books', 'article_deletion'): 62,335
+('books', 'homoglyph'): 62,335
+('books', 'insert_paragraphs'): 62,335
+('books', 'none'): 62,335
+('books', 'number'): 62,335
+('books', 'paraphrase'): 62,335
+('books', 'perplexity_misspelling'): 62,335
+('books', 'synonym'): 62,335
+('books', 'upper_lower'): 62,335
+('books', 'whitespace'): 62,335
+('books', 'zero_width_space'): 62,335
+('news', 'alternative_spelling'): 62,300
+('news', 'article_deletion'): 62,300
+('news', 'homoglyph'): 62,300
+('news', 'insert_paragraphs'): 62,300
+('news', 'none'): 62,300
+('news', 'number'): 62,300
+('news', 'paraphrase'): 62,300
+('news', 'perplexity_misspelling'): 62,300
+('news', 'synonym'): 62,300
+('news', 'upper_lower'): 62,300
+('news', 'whitespace'): 62,300
+('news', 'zero_width_space'): 62,300
+('poetry', 'alternative_spelling'): 61,985
+('poetry', 'article_deletion'): 61,985
+('poetry', 'homoglyph'): 61,985
+('poetry', 'insert_paragraphs'): 61,985
+('poetry', 'none'): 61,985
+('poetry', 'number'): 61,985
+('poetry', 'paraphrase'): 61,985
+('poetry', 'perplexity_misspelling'): 61,985
+('poetry', 'synonym'): 61,985
+('poetry', 'upper_lower'): 61,985
+('poetry', 'whitespace'): 61,985
+('poetry', 'zero_width_space'): 61,985
+('recipes', 'alternative_spelling'): 62,020
+('recipes', 'article_deletion'): 62,020
+('recipes', 'homoglyph'): 62,020
+('recipes', 'insert_paragraphs'): 62,020
+('recipes', 'none'): 62,020
+('recipes', 'number'): 62,020
+('recipes', 'paraphrase'): 62,020
+('recipes', 'perplexity_misspelling'): 62,020
+('recipes', 'synonym'): 62,020
+('recipes', 'upper_lower'): 62,020
+('recipes', 'whitespace'): 62,020
+('recipes', 'zero_width_space'): 62,020
+('reddit', 'alternative_spelling'): 62,265
+('reddit', 'article_deletion'): 62,265
+('reddit', 'homoglyph'): 62,265
+('reddit', 'insert_paragraphs'): 62,265
+('reddit', 'none'): 62,265
+('reddit', 'number'): 62,265
+('reddit', 'paraphrase'): 62,265
+('reddit', 'perplexity_misspelling'): 62,265
+('reddit', 'synonym'): 62,265
+('reddit', 'upper_lower'): 62,265
+('reddit', 'whitespace'): 62,265
+('reddit', 'zero_width_space'): 62,265
+('reviews', 'alternative_spelling'): 33,005
+('reviews', 'article_deletion'): 33,005
+('reviews', 'homoglyph'): 33,005
+('reviews', 'insert_paragraphs'): 33,005
+('reviews', 'none'): 33,005
+('reviews', 'number'): 33,005
+('reviews', 'paraphrase'): 33,005
+('reviews', 'perplexity_misspelling'): 33,005
+('reviews', 'synonym'): 33,005
+('reviews', 'upper_lower'): 33,005
+('reviews', 'whitespace'): 33,005
+('reviews', 'zero_width_space'): 33,005
+('wiki', 'alternative_spelling'): 62,265
+('wiki', 'article_deletion'): 62,265
+('wiki', 'homoglyph'): 62,265
+('wiki', 'insert_paragraphs'): 62,265
+('wiki', 'none'): 62,265
+('wiki', 'number'): 62,265
+('wiki', 'paraphrase'): 62,265
+('wiki', 'perplexity_misspelling'): 62,265
+('wiki', 'synonym'): 62,265
+('wiki', 'upper_lower'): 62,265
+('wiki', 'whitespace'): 62,265
+('wiki', 'zero_width_space'): 62,265
+
+--- MODEL + ATTACK ---
+('chatgpt', 'alternative_spelling'): 26,742
+('chatgpt', 'article_deletion'): 26,742
+('chatgpt', 'homoglyph'): 26,742
+('chatgpt', 'insert_paragraphs'): 26,742
+('chatgpt', 'none'): 26,742
+('chatgpt', 'number'): 26,742
+('chatgpt', 'paraphrase'): 26,742
+('chatgpt', 'perplexity_misspelling'): 26,742
+('chatgpt', 'synonym'): 26,742
+('chatgpt', 'upper_lower'): 26,742
+('chatgpt', 'whitespace'): 26,742
+('chatgpt', 'zero_width_space'): 26,742
+('cohere', 'alternative_spelling'): 26,742
+('cohere', 'article_deletion'): 26,742
+('cohere', 'homoglyph'): 26,742
+('cohere', 'insert_paragraphs'): 26,742
+('cohere', 'none'): 26,742
+('cohere', 'number'): 26,742
+('cohere', 'paraphrase'): 26,742
+('cohere', 'perplexity_misspelling'): 26,742
+('cohere', 'synonym'): 26,742
+('cohere', 'upper_lower'): 26,742
+('cohere', 'whitespace'): 26,742
+('cohere', 'zero_width_space'): 26,742
+('cohere-chat', 'alternative_spelling'): 26,742
+('cohere-chat', 'article_deletion'): 26,742
+('cohere-chat', 'homoglyph'): 26,742
+('cohere-chat', 'insert_paragraphs'): 26,742
+('cohere-chat', 'none'): 26,742
+('cohere-chat', 'number'): 26,742
+('cohere-chat', 'paraphrase'): 26,742
+('cohere-chat', 'perplexity_misspelling'): 26,742
+('cohere-chat', 'synonym'): 26,742
+('cohere-chat', 'upper_lower'): 26,742
+('cohere-chat', 'whitespace'): 26,742
+('cohere-chat', 'zero_width_space'): 26,742
+('gpt2', 'alternative_spelling'): 53,484
+('gpt2', 'article_deletion'): 53,484
+('gpt2', 'homoglyph'): 53,484
+('gpt2', 'insert_paragraphs'): 53,484
+('gpt2', 'none'): 53,484
+('gpt2', 'number'): 53,484
+('gpt2', 'paraphrase'): 53,484
+('gpt2', 'perplexity_misspelling'): 53,484
+('gpt2', 'synonym'): 53,484
+('gpt2', 'upper_lower'): 53,484
+('gpt2', 'whitespace'): 53,484
+('gpt2', 'zero_width_space'): 53,484
+('gpt3', 'alternative_spelling'): 26,742
+('gpt3', 'article_deletion'): 26,742
+('gpt3', 'homoglyph'): 26,742
+('gpt3', 'insert_paragraphs'): 26,742
+('gpt3', 'none'): 26,742
+('gpt3', 'number'): 26,742
+('gpt3', 'paraphrase'): 26,742
+('gpt3', 'perplexity_misspelling'): 26,742
+('gpt3', 'synonym'): 26,742
+('gpt3', 'upper_lower'): 26,742
+('gpt3', 'whitespace'): 26,742
+('gpt3', 'zero_width_space'): 26,742
+('gpt4', 'alternative_spelling'): 26,742
+('gpt4', 'article_deletion'): 26,742
+('gpt4', 'homoglyph'): 26,742
+('gpt4', 'insert_paragraphs'): 26,742
+('gpt4', 'none'): 26,742
+('gpt4', 'number'): 26,742
+('gpt4', 'paraphrase'): 26,742
+('gpt4', 'perplexity_misspelling'): 26,742
+('gpt4', 'synonym'): 26,742
+('gpt4', 'upper_lower'): 26,742
+('gpt4', 'whitespace'): 26,742
+('gpt4', 'zero_width_space'): 26,742
+('human', 'alternative_spelling'): 13,371
+('human', 'article_deletion'): 13,371
+('human', 'homoglyph'): 13,371
+('human', 'insert_paragraphs'): 13,371
+('human', 'none'): 13,371
+('human', 'number'): 13,371
+('human', 'paraphrase'): 13,371
+('human', 'perplexity_misspelling'): 13,371
+('human', 'synonym'): 13,371
+('human', 'upper_lower'): 13,371
+('human', 'whitespace'): 13,371
+('human', 'zero_width_space'): 13,371
+('llama-chat', 'alternative_spelling'): 53,484
+('llama-chat', 'article_deletion'): 53,484
+('llama-chat', 'homoglyph'): 53,484
+('llama-chat', 'insert_paragraphs'): 53,484
+('llama-chat', 'none'): 53,484
+('llama-chat', 'number'): 53,484
+('llama-chat', 'paraphrase'): 53,484
+('llama-chat', 'perplexity_misspelling'): 53,484
+('llama-chat', 'synonym'): 53,484
+('llama-chat', 'upper_lower'): 53,484
+('llama-chat', 'whitespace'): 53,484
+('llama-chat', 'zero_width_space'): 53,484
+('mistral', 'alternative_spelling'): 53,484
+('mistral', 'article_deletion'): 53,484
+('mistral', 'homoglyph'): 53,484
+('mistral', 'insert_paragraphs'): 53,484
+('mistral', 'none'): 53,484
+('mistral', 'number'): 53,484
+('mistral', 'paraphrase'): 53,484
+('mistral', 'perplexity_misspelling'): 53,484
+('mistral', 'synonym'): 53,484
+('mistral', 'upper_lower'): 53,484
+('mistral', 'whitespace'): 53,484
+('mistral', 'zero_width_space'): 53,484
+('mistral-chat', 'alternative_spelling'): 53,484
+('mistral-chat', 'article_deletion'): 53,484
+('mistral-chat', 'homoglyph'): 53,484
+('mistral-chat', 'insert_paragraphs'): 53,484
+('mistral-chat', 'none'): 53,484
+('mistral-chat', 'number'): 53,484
+('mistral-chat', 'paraphrase'): 53,484
+('mistral-chat', 'perplexity_misspelling'): 53,484
+('mistral-chat', 'synonym'): 53,484
+('mistral-chat', 'upper_lower'): 53,484
+('mistral-chat', 'whitespace'): 53,484
+('mistral-chat', 'zero_width_space'): 53,484
+('mpt', 'alternative_spelling'): 53,484
+('mpt', 'article_deletion'): 53,484
+('mpt', 'homoglyph'): 53,484
+('mpt', 'insert_paragraphs'): 53,484
+('mpt', 'none'): 53,484
+('mpt', 'number'): 53,484
+('mpt', 'paraphrase'): 53,484
+('mpt', 'perplexity_misspelling'): 53,484
+('mpt', 'synonym'): 53,484
+('mpt', 'upper_lower'): 53,484
+('mpt', 'whitespace'): 53,484
+('mpt', 'zero_width_space'): 53,484
+('mpt-chat', 'alternative_spelling'): 53,484
+('mpt-chat', 'article_deletion'): 53,484
+('mpt-chat', 'homoglyph'): 53,484
+('mpt-chat', 'insert_paragraphs'): 53,484
+('mpt-chat', 'none'): 53,484
+('mpt-chat', 'number'): 53,484
+('mpt-chat', 'paraphrase'): 53,484
+('mpt-chat', 'perplexity_misspelling'): 53,484
+('mpt-chat', 'synonym'): 53,484
+('mpt-chat', 'upper_lower'): 53,484
+('mpt-chat', 'whitespace'): 53,484
+('mpt-chat', 'zero_width_space'): 53,484

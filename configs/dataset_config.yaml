@@ -1,0 +1,48 @@
+
+dataset:
+  name: "liamdugan/raid"
+  split: "train"
+  seed: 42
+
+sampling:
+  target_ai_pairs: 300
+  target_human: 300
+
+  domains:
+    - abstracts
+    - books
+    - news
+    - poetry
+    - recipes
+    - reddit
+    - reviews
+    - wiki
+
+  ai_models:
+    - llama-chat
+    - mpt
+    - mpt-chat
+    - gpt2
+    - mistral
+    - mistral-chat
+    - gpt3
+    - cohere
+    - chatgpt
+    - gpt4
+    - cohere-chat
+
+  original_attack: "none"
+  adversarial_attack: "paraphrase"
+  human_model: "human"
+  human_attack: "none"
+
+validation:
+  require_matching_adv_source_id: true
+  require_matching_model: true
+  require_matching_domain: true
+  require_matching_source_id: true
+  one_paraphrase_per_original: true
+
+output:
+  directory: "data/processed"
+  format: "csv"
